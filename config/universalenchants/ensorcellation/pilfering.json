@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:fishing_rod",
+    "apotheosis:fishing_tome"
+  ],
+  "incompatible": []
+}

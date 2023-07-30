@@ -1,0 +1,48 @@
+{
+	"credit": "An ElysiaSilly creation :D",
+	"textures": {
+		"1": "block/soul_torch",
+		"particle": "block/soul_torch"
+	},
+	"elements": [
+		{
+			"from": [0, 3, 7],
+			"to": [2, 13, 9],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [2, 7, 8]},
+			"faces": {
+				"north": {"uv": [9, 6, 7, 16], "texture": "#1"},
+				"east": {"uv": [9, 6, 7, 16], "texture": "#1"},
+				"south": {"uv": [9, 6, 7, 16], "texture": "#1"},
+				"west": {"uv": [9, 6, 7, 16], "texture": "#1"},
+				"up": {"uv": [9, 6, 7, 8], "texture": "#1"},
+				"down": {"uv": [9, 14, 7, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-1, 4, 6.5],
+			"to": [2, 6, 9.5],
+			"rotation": {"angle": 0, "axis": "z", "origin": [2, 7, 8]},
+			"faces": {
+				"north": {"uv": [9, 14, 7, 16], "texture": "#1"},
+				"east": {"uv": [9, 14, 7, 16], "texture": "#1"},
+				"south": {"uv": [9, 14, 7, 16], "texture": "#1"},
+				"west": {"uv": [9, 14, 7, 16], "texture": "#1"},
+				"up": {"uv": [7, 14, 9, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [7, 15, 9, 13], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [2.5, 13.5, 9.5],
+			"to": [-0.5, 10.5, 6.5],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [2, 7, 8]},
+			"faces": {
+				"north": {"uv": [9, 3, 7, 5], "texture": "#1"},
+				"east": {"uv": [9, 3, 7, 5], "texture": "#1"},
+				"south": {"uv": [9, 3, 7, 5], "texture": "#1"},
+				"west": {"uv": [9, 3, 7, 5], "texture": "#1"},
+				"up": {"uv": [9, 3, 7, 5], "texture": "#1"},
+				"down": {"uv": [9, 3, 7, 5], "texture": "#1"}
+			}
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "variants": {
+      "": [
+              { "model": "kubejs:block/pewter/block/1"},
+              { "model": "kubejs:block/pewter/block/1", "x":90, "y":90, "z":90},
+              { "model": "kubejs:block/pewter/block/1", "x":180, "y":180, "z":180},
+              { "model": "kubejs:block/pewter/block/1", "x":270, "y":270, "z":270},
+
+              { "model": "kubejs:block/pewter/block/2"},
+              { "model": "kubejs:block/pewter/block/2", "x":90, "y":90, "z":90},
+              { "model": "kubejs:block/pewter/block/2", "x":180, "y":180, "z":180},
+              { "model": "kubejs:block/pewter/block/2", "x":270, "y":270, "z":270},
+
+              { "model": "kubejs:block/pewter/block/3"},
+              { "model": "kubejs:block/pewter/block/3", "x":90, "y":90, "z":90},
+              { "model": "kubejs:block/pewter/block/3", "x":180, "y":180, "z":180},
+              { "model": "kubejs:block/pewter/block/3", "x":270, "y":270, "z":270},
+
+              { "model": "kubejs:block/pewter/block/4"},
+              { "model": "kubejs:block/pewter/block/4", "x":90, "y":90, "z":90},
+              { "model": "kubejs:block/pewter/block/4", "x":180, "y":180, "z":180},
+              { "model": "kubejs:block/pewter/block/4", "x":270, "y":270, "z":270}
+          ]
+    }
+  }

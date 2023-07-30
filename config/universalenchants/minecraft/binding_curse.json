@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:wearable",
+    "apotheosis:helmet_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:leggings_tome",
+    "apotheosis:boots_tome",
+    "$minecraft:universal_enchants_horse_armor"
+  ],
+  "incompatible": []
+}

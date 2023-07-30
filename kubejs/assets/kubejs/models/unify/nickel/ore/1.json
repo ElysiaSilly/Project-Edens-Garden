@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "kubejs:unify/nickel/ore/1"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome"
+  ],
+  "incompatible": []
+}

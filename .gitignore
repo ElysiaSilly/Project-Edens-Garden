@@ -1,0 +1,36 @@
+# Folders
+
+.mixin.out/
+.vscode/
+bruh/
+crash-reports/
+debug/
+ldlib/
+lightspeed-cache/
+local/
+logs/
+modernfix/
+mods/
+patchouli_books/
+resourcepacks/
+saves/
+schematics/
+
+# Files
+
+.curseclient
+.qmenu_opened.marker
+minecraftinstance.json
+options.txt
+patchouli_data.json
+rhino.local.properties
+usercache.json
+usernamecache.json
+
+# Configs
+
+config/spark
+config/tellme
+config/attributefix.json
+config/rubidium*
+config/sodium*

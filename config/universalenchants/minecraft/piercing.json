@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "minecraft:trident",
+    "industrialforegoing:infinity_trident",
+    "redstone_arsenal:flux_trident",
+    "apotheosis:other_tome",
+    "$minecraft:trident",
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "minecraft:efficiency"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:anvil",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

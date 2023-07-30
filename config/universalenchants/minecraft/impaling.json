@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "industrialforegoing:infinity_trident",
+    "apotheosis:other_tome",
+    "$minecraft:weapon",
+    "$minecraft:universal_enchants_axe"
+  ],
+  "incompatible": [
+    "apotheosis:bane_of_illagers",
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:power"
+  ]
+}

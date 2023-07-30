@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:helmet_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:leggings_tome",
+    "apotheosis:boots_tome",
+    "$minecraft:universal_enchants_horse_armor"
+  ],
+  "incompatible": [
+    "minecraft:fire_protection",
+    "ensorcellation:magic_protection",
+    "minecraft:blast_protection",
+    "minecraft:projectile_protection"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "elysia:wenge/wenge",
+    "fallback": "elysia:wenge/pillar",
+    "elements": [
+        {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "elysia:wenge/pillar1",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 4
+        },
+        {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "elysia:wenge/pillar2",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 4
+        },
+        {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "elysia:wenge/pillar3",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 4
+        }
+]}

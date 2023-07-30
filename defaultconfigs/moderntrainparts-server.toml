@@ -1,0 +1,9 @@
+
+["Configs for Modern Train Parts"]
+	#The total amount of stacks a container can hold per block in size.
+	#Range: > 1
+	containerCapacity = 3
+	#The maximal length a wire can go..
+	#Range: > 1
+	wire_length = 16
+

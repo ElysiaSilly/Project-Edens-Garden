@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "industrialforegoing:infinity_hammer",
+    "apotheosis:weapon_tome",
+    "farmersdelight:skillet"
+  ],
+  "incompatible": [
+    "ensorcellation:damage_illager",
+    "ensorcellation:instigating",
+    "ensorcellation:damage_ender",
+    "minecraft:impaling",
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:power",
+    "ensorcellation:damage_villager",
+    "ensorcellation:magic_edge"
+  ]
+}

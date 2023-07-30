@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "industrialforegoing:infinity_hammer",
+    "redstone_arsenal:flux_sickle",
+    "apotheosis:weapon_tome",
+    "$minecraft:universal_enchants_axe",
+    "$minecraft:trident"
+  ],
+  "incompatible": [
+    "ensorcellation:magic_edge"
+  ]
+}

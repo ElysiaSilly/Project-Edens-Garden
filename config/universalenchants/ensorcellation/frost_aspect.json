@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:sword_or_axe",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "apotheosis:weapon_tome"
+  ],
+  "incompatible": [
+    "minecraft:fire_aspect"
+  ]
+}

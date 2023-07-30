@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "thermal:flux_drill",
+    "thermal:flux_saw",
+    "apotheosis:pickaxe_tome",
+    "quark:pickarang",
+    "quark:flamerang",
+    "quark:echorang"
+  ],
+  "incompatible": [
+    "minecraft:looting",
+    "minecraft:luck_of_the_sea",
+    "minecraft:fortune"
+  ]
+}

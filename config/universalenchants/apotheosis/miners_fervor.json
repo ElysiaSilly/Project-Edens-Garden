@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "apotheosis:pickaxe_tome"
+  ],
+  "incompatible": [
+    "minecraft:efficiency"
+  ]
+}

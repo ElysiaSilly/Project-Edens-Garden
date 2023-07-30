@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:other_tome",
+    "apotheosis:chestplate_tome",
+    "$minecraft:universal_enchants_horse_armor",
+    "$minecraft:universal_enchants_shield"
+  ],
+  "incompatible": [
+    "ensorcellation:displacement",
+    "ensorcellation:frost_rebuke",
+    "ensorcellation:fire_rebuke",
+    "apotheosis:icy_thorns"
+  ]
+}

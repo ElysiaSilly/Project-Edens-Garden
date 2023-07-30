@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "industrialforegoing:infinity_hammer",
+    "apotheosis:other_tome",
+    "apotheosis:weapon_tome",
+    "farmersdelight:skillet"
+  ],
+  "incompatible": []
+}

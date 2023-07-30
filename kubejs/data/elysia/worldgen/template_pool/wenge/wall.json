@@ -1,0 +1,23 @@
+{
+    "name": "elysia:wenge/wall",
+    "fallback": "elysia:wenge/pool",
+    "elements": [
+        {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "elysia:wenge/wall1",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 4
+        },
+        {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "elysia:wenge/wall2",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 4
+        }
+]}

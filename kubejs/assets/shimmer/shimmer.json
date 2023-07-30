@@ -1,0 +1,81 @@
+{
+  "ColorReference": {
+    "glow": { "r": 75, "g": 222, "b": 186, "a": 200 },
+
+    "red": { "r": 192, "g": 53, "b": 69, "a": 200 },
+    "orange": { "r": 255, "g": 155, "b": 41, "a": 200 },
+    "yellow": { "r": 224, "g": 215, "b": 70, "a": 200 },
+    "lime": { "r": 115, "g": 188, "b": 18, "a": 200 },
+    "green": { "r": 114, "g": 157, "b": 18, "a": 200 },
+    "cyan": { "r": 23, "g": 210, "b": 210, "a": 200 },
+    "light_blue": { "r": 110, "g": 189, "b": 224, "a": 200 },
+    "blue": { "r": 90, "g": 132, "b": 208, "a": 200 },
+    "purple": { "r": 154, "g": 49, "b": 208, "a": 200 },
+    "magenta": { "r": 224, "g": 92, "b": 205, "a": 200 },
+    "pink": { "r": 255, "g": 160, "b": 191, "a": 200 },
+    "brown": { "r": 149, "g": 82, "b": 32, "a": 200 },
+    "black": { "r": 56, "g": 55, "b": 81, "a": 200 },
+    "white": { "r": 235, "g": 234, "b": 243, "a": 200 },
+    "gray": { "r": 114, "g": 137, "b": 150, "a": 200 },
+    "light_gray": { "r": 145, "g": 155, "b": 161, "a": 200 },
+    "phosphor_blue": { "r": 16, "g": 163, "b": 226, "a": 150 },
+    "mushgloom_green": { "r": 102, "g": 201, "b": 205, "a": 150 }
+  },
+  "Bloom": [
+    { "block": "kubejs:cinnabar_ore" },
+    { "block": "kubejs:diamond_ore" },
+    { "block": "kubejs:emerald_ore"},
+
+    { "block": "botania:white_mushroom"},
+    { "block": "botania:orange_mushroom"},
+    { "block": "botania:magenta_mushroom"},
+    { "block": "botania:light_blue_mushroom"},
+    { "block": "botania:yellow_mushroom"},
+    { "block": "botania:lime_mushroom"},
+    { "block": "botania:pink_mushroom"},
+    { "block": "botania:gray_mushroom"},
+    { "block": "botania:light_gray_mushroom"},
+    { "block": "botania:cyan_mushroom"},
+    { "block": "botania:purple_mushroom"},
+    { "block": "botania:blue_mushroom"},
+    { "block": "botania:brown_mushroom"},
+    { "block": "botania:green_mushroom"},
+    { "block": "botania:red_mushroom"},
+    { "block": "botania:black_mushroom"},
+
+    { "block": "ad_astra:cryo_fuel"},
+
+    { "block": "minecraft:soul_torch"},
+
+    {"block":"kubejs:chartreuse"}
+    
+  ],
+  "LightBlock": [
+    { "block": "kubejs:cinnabar_ore", "color": "#red", "radius": 2 },
+    { "block": "kubejs:diamond_ore", "color": "#light_blue", "radius": 2 },
+    { "block": "kubejs:emerald_ore", "color": "#lime", "radius": 2 },
+
+    { "block": "botania:white_mushroom", "color": "#white", "radius": 2 },
+    { "block": "botania:orange_mushroom", "color": "#orange", "radius": 2 },
+    { "block": "botania:magenta_mushroom", "color": "#magenta", "radius": 2 },
+    { "block": "botania:light_blue_mushroom", "color": "#light_blue", "radius": 2 },
+    { "block": "botania:yellow_mushroom", "color": "#yellow", "radius": 2 },
+    { "block": "botania:lime_mushroom", "color": "#lime", "radius": 2 },
+    { "block": "botania:pink_mushroom", "color": "#pink", "radius": 2 },
+    { "block": "botania:gray_mushroom", "color": "#gray", "radius": 2 },
+    { "block": "botania:light_gray_mushroom", "color": "#light_gray", "radius": 2 },
+    { "block": "botania:cyan_mushroom", "color": "#cyan", "radius": 2 },
+    { "block": "botania:purple_mushroom", "color": "#purple", "radius": 2 },
+    { "block": "botania:blue_mushroom", "color": "#blue", "radius": 2 },
+    { "block": "botania:brown_mushroom", "color": "#brown", "radius": 2 },
+    { "block": "botania:green_mushroom", "color": "#green", "radius": 2 },
+    { "block": "botania:red_mushroom", "color": "#red", "radius": 2 },
+    { "block": "botania:black_mushroom", "color": "#black", "radius": 2 },
+
+    { "block": "ad_astra:cryo_fuel", "color": "#cyan", "radius": 4},
+
+    { "block": "minecraft:soul_torch", "color": "#cyan", "radius": 16},
+    { "block": "minecraft:soul_wall_torch", "color": "#cyan", "radius": 16}
+  ],
+  "LightItem": []
+}

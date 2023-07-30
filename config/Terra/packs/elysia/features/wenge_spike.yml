@@ -1,0 +1,49 @@
+id: WENGE_SPIKE
+type: FEATURE
+
+distributor:
+  type: PADDED_GRID
+  width: 14
+  padding: 4
+  salt: 38362
+
+locator:
+  type: AND
+  locators:
+    - type: TOP
+      range: &range
+        min: 60
+        max: 319
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - kubejs:wenge
+          - minecraft:basalt
+          - create:scoria
+          - kubejs:caverock_block
+        offset: -1
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - minecraft:air
+        offset: 0
+    - type: PATTERN
+      range: *range
+      pattern:
+        type: MATCH_SET
+        blocks:
+          - kubejs:caverock_block
+        offset: -3
+
+
+structures:
+  distribution:
+    type: WHITE_NOISE
+  structures:
+    - ice_spike: 3
+    - ice_spike_small: 4
+    - ice_spike_huge: 2

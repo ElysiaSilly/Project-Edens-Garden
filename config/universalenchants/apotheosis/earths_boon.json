@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pickaxe",
+    "industrialforegoing:infinity_drill",
+    "apotheosis:pickaxe_tome"
+  ],
+  "incompatible": []
+}

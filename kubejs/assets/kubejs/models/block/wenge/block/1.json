@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kubejs:block/wenge/block/end1",
+    "side": "kubejs:block/wenge/block/side1"
+  }
+}

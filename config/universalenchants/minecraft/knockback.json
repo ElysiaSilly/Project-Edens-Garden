@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:sword_or_axe",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "apotheosis:weapon_tome",
+    "farmersdelight:flint_knife",
+    "farmersdelight:iron_knife",
+    "farmersdelight:diamond_knife",
+    "farmersdelight:netherite_knife",
+    "farmersdelight:golden_knife",
+    "supplementaries:wrench",
+    "abnormals_delight:silver_knife",
+    "abnormals_delight:necromium_knife",
+    "$minecraft:universal_enchants_axe",
+    "$minecraft:trident",
+    "$minecraft:universal_enchants_shield"
+  ],
+  "incompatible": []
+}

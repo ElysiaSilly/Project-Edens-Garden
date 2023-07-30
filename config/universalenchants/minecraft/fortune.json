@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "minecraft:shears",
+    "ae2:annihilation_plane",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "botania:manasteel_shears",
+    "botania:elementium_shears",
+    "thermal:flux_drill",
+    "thermal:flux_saw",
+    "apotheosis:pickaxe_tome",
+    "quark:pickarang",
+    "quark:flamerang",
+    "quark:echorang"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch"
+  ]
+}

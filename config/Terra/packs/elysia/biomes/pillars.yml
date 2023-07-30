@@ -1,0 +1,79 @@
+id: PILLARS
+
+type: BIOME
+
+vanilla: minecraft:basalt_deltas
+
+vars: &variables
+  base: 70
+  height: 15
+  pillarHeight: 50
+  pillarHeightVariation: 20
+  pillarWidth: 1.1  // inversed
+  pillarWidthVariation: 6
+
+terrain:
+  sampler:
+    dimensions: 3
+    type: EXPRESSION
+    variables: *variables
+    expression: |
+      if(-y + (base + noiseBase(x,z) * height) + basepillars(x, z) * 10 < -5, // select all blocks above ground level
+        // higher = thinner
+        (basepillars(x,z) 
+          + min(0.82 * pillarWidth, 0.58 * pillarWidth + (pillarBaseWidth(x, z) / pillarWidthVariation))   // make pillars randomly smaller (the whole pillar)
+          - (pillarWidthRand(y, (x + z) / 50) / 9)  // random size on height
+          + (max((y-(base + noiseBase(x,z) * height)) - (pillarHeight + basepillarsCenter(x,z) * pillarHeightVariation) + 7, 0) / 4 )) // blend with base terrain
+        * -max((pillarHeight + basepillarsCenter(x,z) * pillarHeightVariation) - (y - (base + noiseBase(x,z) * height)), 0), 
+      -y + (base + noiseBase(x,z) * height))
+    samplers:
+      noiseBase:
+        dimensions: 2
+        type: OPEN_SIMPLEX_2S
+        frequency: 0.011
+      pillarWidthRand:
+        dimensions: 2
+        type: FBM
+        sampler:
+          dimensions: 2
+          type: OPEN_SIMPLEX_2S
+          frequency: 0.5
+        octaves: 2
+        lacunarity: 4
+        gain: 0.5
+      pillarBaseWidth:
+        dimensions: 2
+        type: OPEN_SIMPLEX_2
+        frequency: 0.018
+      pillarBaseHeight:
+        dimensions: 2
+        type: OPEN_SIMPLEX_2
+        frequency: 0.02
+      basepillars:
+        dimensions: 2
+        type: LINEAR
+        min: -1
+        max: 0.2
+        sampler:
+          type: CELLULAR
+          frequency: 0.022
+          jitter: 0.5
+          distance: Euclidean
+      basepillarsCenter:
+        dimensions: 2
+        type: CELLULAR
+        frequency: 0.022
+        jitter: 0.85
+        return: CellValue
+
+palette:
+  - BLOCK:kubejs:aardsilt_block: 319
+  - BLOCK:kubejs:caverock_block: 128
+  - BLOCK:kubejs:depthshale_block: 0
+  - BLOCK:kubejs:deepslate_block: -64
+  - BLOCK:kubejs:kernstone_block: -128
+
+features:
+  landforms:
+    - WENGE_POOL
+    - WENGE_SPIKES

@@ -1,0 +1,10 @@
+{
+    "variants": {
+      "": [
+              { "model": "kubejs:block/depthshale/block/1"},
+              { "model": "kubejs:block/depthshale/block/1", "x":90, "y":90, "z":90},
+              { "model": "kubejs:block/depthshale/block/1", "x":180, "y":180, "z":180},
+              { "model": "kubejs:block/depthshale/block/1", "x":270, "y":270, "z":270}
+          ]
+    }
+  }

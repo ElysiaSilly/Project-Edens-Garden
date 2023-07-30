@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+      "end": "kubejs:unify/apatite/ore/top",
+      "side": "kubejs:unify/apatite/ore/2"
+    }
+}

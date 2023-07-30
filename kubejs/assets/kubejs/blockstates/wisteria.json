@@ -1,0 +1,20 @@
+  {
+    "variants": {
+      "": [
+              { "model": "kubejs:block/wisteria/block/1"},
+              { "model": "kubejs:block/wisteria/block/1","y":90},
+              { "model": "kubejs:block/wisteria/block/1","y":180},
+              { "model": "kubejs:block/wisteria/block/1","y":270},
+  
+              { "model": "kubejs:block/wisteria/block/2"},
+              { "model": "kubejs:block/wisteria/block/2","y":90},
+              { "model": "kubejs:block/wisteria/block/2","y":180},
+              { "model": "kubejs:block/wisteria/block/2","y":270},
+  
+              { "model": "kubejs:block/wisteria/block/3"},
+              { "model": "kubejs:block/wisteria/block/3","y":90},
+              { "model": "kubejs:block/wisteria/block/3","y":180},
+              { "model": "kubejs:block/wisteria/block/3","y":270}
+          ]
+    }
+  }

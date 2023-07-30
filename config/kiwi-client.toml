@@ -1,0 +1,9 @@
+contributorCosmetic = ""
+globalTooltip = true
+noMicrosoftTelemetry = true
+suppressExperimentalSettingsWarning = true
+
+[debug]
+tagsTooltip = false
+debugTooltipMsg = false
+NBTTooltip = true

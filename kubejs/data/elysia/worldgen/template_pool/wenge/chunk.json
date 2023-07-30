@@ -1,0 +1,23 @@
+{
+    "name": "elysia:wenge/wenge",
+    "fallback": "elysia:wenge/chunk",
+    "elements": [
+        {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "elysia:wenge/chunk1",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 4
+        },
+        {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "elysia:wenge/chunk2",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 4
+        }
+]}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "industrialforegoing:infinity_trident",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

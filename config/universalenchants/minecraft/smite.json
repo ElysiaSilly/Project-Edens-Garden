@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "industrialforegoing:infinity_hammer",
+    "apotheosis:weapon_tome",
+    "farmersdelight:skillet",
+    "farmersdelight:flint_knife",
+    "farmersdelight:iron_knife",
+    "farmersdelight:diamond_knife",
+    "farmersdelight:netherite_knife",
+    "farmersdelight:golden_knife",
+    "abnormals_delight:silver_knife",
+    "abnormals_delight:necromium_knife",
+    "$minecraft:universal_enchants_axe",
+    "$minecraft:trident"
+  ],
+  "incompatible": [
+    "ensorcellation:damage_illager",
+    "ensorcellation:instigating",
+    "ensorcellation:damage_ender",
+    "minecraft:impaling",
+    "apotheosis:bane_of_illagers",
+    "minecraft:bane_of_arthropods",
+    "minecraft:power",
+    "ensorcellation:damage_villager",
+    "ensorcellation:magic_edge"
+  ]
+}

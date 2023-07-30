@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:axe",
+    "industrialforegoing:infinity_saw",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

@@ -1,0 +1,21 @@
+id: DUNES
+
+type: BIOME
+
+vanilla: minecraft:plains
+
+terrain:
+  type: LINEAR_HEIGHTMAP
+  sampler:
+    type: IMAGE
+    image: mogus.png
+    frequency: 1
+    channel: ALPHA
+
+
+palette:
+  - BLOCK:kubejs:aardsilt_block: 319
+  - BLOCK:kubejs:caverock_block: 128
+  - BLOCK:kubejs:depthshale_block: 0
+  - BLOCK:kubejs:deepslate_block: -64
+  - BLOCK:kubejs:kernstone_block: -128

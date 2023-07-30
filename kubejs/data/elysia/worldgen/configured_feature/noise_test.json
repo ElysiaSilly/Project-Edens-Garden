@@ -1,0 +1,64 @@
+{
+    "type": "spelunkery:block_stripe",
+    "config": {
+      "first_target": "#elysia:worldgen/carvable",
+      "first_target_placer": [
+        {
+            "primary_stone_type": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 80,
+                    "data": {
+                      "Name": "kubejs:chartreuse"
+                    }
+                  },
+                  {
+                    "weight": 20,
+                    "data": {
+                      "Name": "minecraft:smooth_basalt",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "secondary_stone_type": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 70,
+                    "data": {
+                      "Name": "create:scorchia"
+                    }
+                  },
+                  {
+                    "weight": 30,
+                    "data": {
+                      "Name": "kubejs:depthshale_block",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  }
+                ]
+              },
+          "stone_pattern": {
+            "noise_seed": 34,
+            "primary_min": -0.1,
+            "primary_max": 0.1,
+            "secondary_min": -0.3,
+            "secondary_max": 0.3,
+            "vertical_scale": 1
+          }
+        }
+      ],
+      "use_second_target": false,
+      "second_target": "#elysia:worldgen/carvable",
+      "second_target_placer": [],
+      "use_biome_filter": true,
+      "biomes": "#minecraft:is_overworld",
+      "surface_offset": 64
+    }
+  }

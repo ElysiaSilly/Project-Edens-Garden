@@ -1,0 +1,165 @@
+
+[types]
+
+	[types.wood_type]
+
+		[types.wood_type.quark]
+			bamboo = true
+			azalea = true
+			blossom = true
+			ancient = true
+
+		[types.wood_type.botania]
+			livingwood = true
+			dreamwood = true
+
+		[types.wood_type.colorfulazaleas]
+			tecal_azalea = true
+			fiss_azalea = true
+			roze_azalea = true
+			azule_azalea = true
+			bright_azalea = true
+			walnut_azalea = true
+			titanium_azalea = true
+
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
+
+		[types.wood_type.architects_palette]
+			twisted = true
+
+		[types.wood_type.caupona]
+			walnut = true
+
+		[types.wood_type.environmental]
+			willow = true
+			cherry = true
+			wisteria = true
+
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
+		[types.wood_type.autumnity]
+			maple = true
+
+		[types.wood_type.atmospheric]
+			rosewood = true
+			morado = true
+			yucca = true
+			kousa = true
+			aspen = true
+			grimwood = true
+
+	[types.leaves_type]
+
+		[types.leaves_type.colorfulazaleas]
+			blue_azalea = true
+			blue_blooming_azalea = true
+			blue_flowering_azalea = true
+			orange_azalea = true
+			orange_blooming_azalea = true
+			orange_flowering_azalea = true
+			pink_azalea = true
+			pink_blooming_azalea = true
+			pink_flowering_azalea = true
+			purple_azalea = true
+			purple_blooming_azalea = true
+			purple_flowering_azalea = true
+			red_azalea = true
+			red_blooming_azalea = true
+			red_flowering_azalea = true
+			white_azalea = true
+			white_blooming_azalea = true
+			white_flowering_azalea = true
+			yellow_azalea = true
+			yellow_blooming_azalea = true
+			yellow_flowering_azalea = true
+
+		[types.leaves_type.ad_astra]
+			glacian = true
+
+		[types.leaves_type.architects_palette]
+			twisted = true
+
+		[types.leaves_type.caupona]
+			walnut = true
+			fig = true
+			wolfberry = true
+
+		[types.leaves_type.environmental]
+			willow = true
+			cherry = true
+
+		[types.leaves_type.upgrade_aquatic]
+			river = true
+
+		[types.leaves_type.autumnity]
+			maple = true
+			yellow_maple = true
+			orange_maple = true
+			red_maple = true
+
+		[types.leaves_type.atmospheric]
+			rosewood = true
+			morado = true
+			flowering_morado = true
+			yucca = true
+			kousa = true
+			aspen = true
+			grimwood = true
+
+		[types.leaves_type.quark]
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			pink_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+			ancient = true
+
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.woodworks]
+			bookshelf = true
+			boards = true
+			ladder = true
+			beehive = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			hollow_log = true
+
+		[entries.wood_type.architects_palette]
+			boards = true
+			board_stairs = true
+			railing = true
+			board_wall = true
+			board_slab = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = true
+
