@@ -818,7 +818,7 @@
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "kubejs:caverock_block"
+                                  "Name": "kubejs:caverock"
                                 }
                               }
                             },
@@ -1081,7 +1081,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "kubejs:caverock_block"
+                                    "Name": "kubejs:caverock"
                                   }
                                 }
                               },
@@ -1146,7 +1146,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "kubejs:caverock_block"
+                                    "Name": "kubejs:caverock"
                                   }
                                 }
                               },
@@ -1253,7 +1253,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "kubejs:aardsilt_block"
+                                      "Name": "kubejs:aardsilt"
                                     }
                                   }
                                 ]
@@ -1293,7 +1293,7 @@
                                           "then_run": {
                                             "type": "minecraft:block",
                                             "result_state": {
-                                              "Name": "kubejs:aardsilt_block"
+                                              "Name": "kubejs:aardsilt"
                                             }
                                           }
                                         },
@@ -1309,7 +1309,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "kubejs:caverock_block"
+                                      "Name": "kubejs:caverock"
                                     }
                                   }
                                 ]
@@ -1334,7 +1334,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "kubejs:caverock_block"
+                                    "Name": "kubejs:caverock"
                                   }
                                 }
                               }
@@ -1424,7 +1424,7 @@
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "kubejs:caverock_block"
+                                  "Name": "kubejs:caverock"
                                 }
                               }
                             }
@@ -1452,7 +1452,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "kubejs:caverock_block"
+                                    "Name": "kubejs:caverock"
                                   }
                                 }
                               },
@@ -1508,7 +1508,7 @@
                                       "then_run": {
                                         "type": "minecraft:block",
                                         "result_state": {
-                                          "Name": "kubejs:caverock_block"
+                                          "Name": "kubejs:caverock"
                                         }
                                       }
                                     },
@@ -1532,7 +1532,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "kubejs:caverock_block"
+                                    "Name": "kubejs:caverock"
                                   }
                                 }
                               },
@@ -1589,7 +1589,7 @@
                                     "then_run": {
                                       "type": "minecraft:block",
                                       "result_state": {
-                                        "Name": "kubejs:caverock_block"
+                                        "Name": "kubejs:caverock"
                                       }
                                     }
                                   },
@@ -1892,7 +1892,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "kubejs:caverock_block"
+                                    "Name": "kubejs:caverock"
                                   }
                                 }
                               },
@@ -1949,7 +1949,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "kubejs:caverock_block"
+                              "Name": "kubejs:caverock"
                             }
                           }
                         },
@@ -2029,7 +2029,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "kubejs:aardsilt_block"
+                                      "Name": "kubejs:aardsilt"
                                     }
                                   }
                                 ]
@@ -2069,7 +2069,7 @@
                                           "then_run": {
                                             "type": "minecraft:block",
                                             "result_state": {
-                                              "Name": "kubejs:caverock_block"
+                                              "Name": "kubejs:caverock"
                                             }
                                           }
                                         },
@@ -2085,7 +2085,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "kubejs:caverock_block"
+                                      "Name": "kubejs:caverock"
                                     }
                                   }
                                 ]
@@ -2110,7 +2110,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "kubejs:caverock_block"
+                                    "Name": "kubejs:caverock"
                                   }
                                 }
                               }
@@ -2200,7 +2200,7 @@
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "kubejs:caverock_block"
+                                  "Name": "kubejs:caverock"
                                 }
                               }
                             }
@@ -2225,7 +2225,7 @@
                             "then_run": {
                               "type": "minecraft:block",
                               "result_state": {
-                                "Name": "kubejs:caverock_block"
+                                "Name": "kubejs:caverock"
                               }
                             }
                           }
@@ -2264,7 +2264,7 @@
                                       "then_run": {
                                         "type": "minecraft:block",
                                         "result_state": {
-                                          "Name": "kubejs:caverock_block"
+                                          "Name": "kubejs:caverock"
                                         }
                                       }
                                     },
@@ -2288,7 +2288,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "kubejs:caverock_block"
+                                    "Name": "kubejs:caverock"
                                   }
                                 }
                               },
@@ -2322,7 +2322,7 @@
                                     "then_run": {
                                       "type": "minecraft:block",
                                       "result_state": {
-                                        "Name": "kubejs:caverock_block"
+                                        "Name": "kubejs:caverock"
                                       }
                                     }
                                   },
@@ -2440,7 +2440,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "kubejs:caverock_block"
+                        "Name": "kubejs:caverock"
                       }
                     }
                   },
@@ -2497,7 +2497,7 @@
                         "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "kubejs:caverock_block"
+                            "Name": "kubejs:caverock"
                           }
                         }
                       },
@@ -2522,7 +2522,7 @@
           "false_at_and_above": {
             "absolute": -118
           },
-          "random_name": "kubejs:kernstone_block",
+          "random_name": "kubejs:kernstone",
           "true_at_and_below": {
             "absolute": -128
           }
@@ -2530,7 +2530,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "kubejs:kernstone_block",
+            "Name": "kubejs:kernstone",
             "Properties": {
               "axis": "y"
             }
@@ -2544,7 +2544,7 @@
           "false_at_and_above": {
             "absolute": -54
           },
-          "random_name": "kubejs:deepslate_block",
+          "random_name": "kubejs:deepslate",
           "true_at_and_below": {
             "absolute": -64
           }
@@ -2552,7 +2552,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "kubejs:deepslate_block",
+            "Name": "kubejs:deepslate",
             "Properties": {
               "axis": "y"
             }
@@ -2588,7 +2588,7 @@
           "false_at_and_above": {
             "absolute": 10
           },
-          "random_name": "kubejs:depthshale_block",
+          "random_name": "kubejs:depthshale",
           "true_at_and_below": {
             "absolute": 0
           }
@@ -2596,7 +2596,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "kubejs:depthshale_block",
+            "Name": "kubejs:depthshale",
             "Properties": {
               "axis": "y"
             }
@@ -2610,7 +2610,7 @@
           "false_at_and_above": {
             "absolute": 138
           },
-          "random_name": "kubejs:caverock_block",
+          "random_name": "kubejs:caverock",
           "true_at_and_below": {
             "absolute": 128
           }
@@ -2618,7 +2618,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "kubejs:caverock_block",
+            "Name": "kubejs:caverock",
             "Properties": {
               "axis": "y"
             }
@@ -2632,7 +2632,7 @@
           "false_at_and_above": {
             "absolute": 320
           },
-          "random_name": "kubejs:aardsilt_block",
+          "random_name": "kubejs:aardsilt",
           "true_at_and_below": {
             "absolute": 320
           }
@@ -2640,7 +2640,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "kubejs:aardsilt_block",
+            "Name": "kubejs:aardsilt",
             "Properties": {
               "axis": "y"
             }

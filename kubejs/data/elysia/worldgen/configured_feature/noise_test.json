@@ -36,7 +36,7 @@
                   {
                     "weight": 30,
                     "data": {
-                      "Name": "kubejs:depthshale_block",
+                      "Name": "kubejs:depthshale",
                       "Properties": {
                         "axis": "y"
                       }

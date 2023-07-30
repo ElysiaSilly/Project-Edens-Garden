@@ -27,15 +27,6 @@ global.strata = [
     }
 ]
 
-global.rocks = [
-    {
-        id: "exhaust_stone",
-        harvestLevel: "minecraft:mineable/pickaxe",
-        material: "leaves",
-        hardness: "1"
-    }
-]
-
 global.minerals = [
     {
         id: "kimberly_placeholder",
@@ -115,18 +106,18 @@ global.minerals = [
     }
 ]
 
-global.rockItems = [
+global.strataItems = [
     {
-        id: "cobble",
+        id: "_cobble",
     }
 ]
 
-global.rockBlocks = [
+global.strataBlocks = [
     {
-        id: "block"
+        id: ""
     },{
-        id: "polished"
+        id: "_polished"
     },{
-        id: "cobbles"
+        id: "_cobbles"
     }
 ]

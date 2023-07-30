@@ -2,11 +2,11 @@ ServerEvents.tags('block', (event) => {
 
     const carverCarvableBlocks = [
         
-       'kubejs:aardsilt_block',
-       'kubejs:caverock_block',
-       'kubejs:depthshale_block',
-       'kubejs:deepslate_block',
-       'kubejs:kernstone_block',
+       'kubejs:aardsilt',
+       'kubejs:caverock',
+       'kubejs:depthshale',
+       'kubejs:deepslate',
+       'kubejs:kernstone',
 
        'minecraft:dirt',
        'minecraft:grass_block',
@@ -20,11 +20,11 @@ ServerEvents.tags('block', (event) => {
 
     const oreReplaceableBlocks = [
         
-        'kubejs:aardsilt_block',
-        'kubejs:caverock_block',
-        'kubejs:depthshale_block',
-        'kubejs:deepslate_block',
-        'kubejs:kernstone_block',
+        'kubejs:aardsilt',
+        'kubejs:caverock',
+        'kubejs:depthshale',
+        'kubejs:deepslate',
+        'kubejs:kernstone',
  
      ]
 

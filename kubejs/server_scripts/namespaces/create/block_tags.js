@@ -11,12 +11,6 @@ ServerEvents.tags('block', (event) => {
        'thermal:energy_cell',
        'thermal:fluid_cell',
 
-       // Tconstruct
-       //'/tconstruct:seared_*/',
-       //'/tconstruct:scorched_*/',
-       //'/tconstruct:foundry_*/',
-       //'/tconstruct:smeltery_*/',
-
        // Redstone
        'minecraft:redstone_wire',
        'minecraft:redstone_torch',

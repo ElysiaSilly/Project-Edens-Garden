@@ -1,16 +1,20 @@
 StartupEvents.registry('block', event => {
 
-    global.strata.forEach((rock) => {
-    global.rockBlocks.forEach((block) => {
+    // Registers the Strata Blocks
+
+    global.strata.forEach((strata) => {
+    global.strataBlocks.forEach((block) => {
     
-        event.create(`${rock.id}_${block.id}`)
+        event.create(`${strata.id}${block.id}`)
         .material('stone')
-        .tagBlock(`${rock.harvestLevel}`)
-        .hardness(`${rock.hardness}`)
+        .tagBlock(`${strata.harvestLevel}`)
+        .hardness(`${strata.hardness}`)
         .requiresTool(true)
-        .resistance(`${rock.resistance}`)
+        .resistance(`${strata.resistance}`)
     
     })})
+
+    // Registers the Mineral blocks
 
     global.minerals.forEach((mineral) => {
     
@@ -22,25 +26,5 @@ StartupEvents.registry('block', event => {
         .renderType(`${mineral.renderType}`)
     
     })
-
-    global.rocks.forEach((rock) => {
-    
-        event.create(`${rock.id}`)
-        .tagBlock(`${rock.harvestLevel}`)
-        .hardness(`${rock.hardness}`)
-        .requiresTool(true)
-        .material(`${rock.material}`)
-    
-    })
-
-    //??
-
-    event.create('kernstone_rubble')
-    .material('sand')
-    .tagBlock('hltweaker:needs_machine_tool')
-    .hardness('20')
-    .requiresTool(true)
-    .resistance('4')
-    .box(0, 0, 0, 16, 5, 16, true)
 
 })
