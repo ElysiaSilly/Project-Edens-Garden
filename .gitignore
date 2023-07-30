@@ -27,10 +27,18 @@ kubejs/README.txt
 
 # Configs
 config/spark
-config/tellme
 config/attributefix.json
 config/rubidium*
 config/sodium*
+config/darkmodeeverywhereshaders.json
+config/reforgium-render.properties
+config/roughlyenoughitems/
+config/powah.json5
+config/sound_physics_remastered/
+
+
+defaultconfigs/ftbessentials-server.snbt
+defaultconfigs/gag/
 
 # Instance Sync
 **/*.jar
