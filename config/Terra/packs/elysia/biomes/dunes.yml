@@ -14,8 +14,8 @@ terrain:
 
 
 palette:
-  - BLOCK:kubejs:aardsilt_block: 319
-  - BLOCK:kubejs:caverock_block: 128
-  - BLOCK:kubejs:depthshale_block: 0
-  - BLOCK:kubejs:deepslate_block: -64
-  - BLOCK:kubejs:kernstone_block: -128
+  - BLOCK:kubejs:aardsilt: 319
+  - BLOCK:kubejs:caverock: 128
+  - BLOCK:kubejs:depthshale: 0
+  - BLOCK:kubejs:deepslate: -64
+  - BLOCK:kubejs:kernstone: -128

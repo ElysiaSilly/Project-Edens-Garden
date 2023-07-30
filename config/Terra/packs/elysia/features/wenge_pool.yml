@@ -28,7 +28,7 @@ locator:
               - kubejs:wenge
               - minecraft:basalt
               - create:scoria
-              - kubejs:caverock_block
+              - kubejs:caverock
             offset: 0
           - type: MATCH_SOLID
             offset: -1
@@ -43,7 +43,7 @@ locator:
               - kubejs:wenge
               - minecraft:basalt
               - create:scoria
-              - kubejs:caverock_block
+              - kubejs:caverock
             offset: 0
           - type: MATCH
             block: minecraft:lava

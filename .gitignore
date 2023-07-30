@@ -31,10 +31,11 @@ config/attributefix.json
 config/rubidium*
 config/sodium*
 config/darkmodeeverywhereshaders.json
-config/reforgium-render.properties
+config/reforgium-renderer.properties
 config/roughlyenoughitems/
-config/powah.json5
+config/powah*
 config/sound_physics_remastered/
+config/tellme/
 
 
 defaultconfigs/ftbessentials-server.snbt

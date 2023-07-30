@@ -22,7 +22,7 @@ locator:
           - kubejs:wenge
           - minecraft:basalt
           - create:scoria
-          - kubejs:caverock_block
+          - kubejs:caverock
         offset: -1
     - type: PATTERN
       range: *range
@@ -36,7 +36,7 @@ locator:
       pattern:
         type: MATCH_SET
         blocks:
-          - kubejs:caverock_block
+          - kubejs:caverock
         offset: -3
 
 
