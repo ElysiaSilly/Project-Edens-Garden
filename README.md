@@ -9,4 +9,5 @@ If you for whatever reason want to check it out, you'll have to [manually instal
 
 # Setup
 
-Run the "setup.bat" file in the root directy, it'll handle setting up the instance. Feel free to move the instance to your launcher of choice.
+Run the "setup.bat" file found in the root directory, it'll handle setting up the instance.
+Feel free to move the instance to your launcher of choice after its finished.
