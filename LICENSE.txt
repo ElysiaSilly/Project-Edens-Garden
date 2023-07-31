@@ -1,4 +1,12 @@
-MIT License
+(Assets) All Rights Reserved
+
+Copyright (c) 2023 ElysiaSilly
+
+All asset resources custom made within this pack (textures, models, and etc) are held under All Rights Reserved unless explicitly given written permission from the Copyright Holder
+
+-
+
+(Code) MIT License
 
 Copyright (c) 2023 ElysiaSilly
 
