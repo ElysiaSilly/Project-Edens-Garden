@@ -36,6 +36,7 @@ config/roughlyenoughitems/
 config/powah*
 config/sound_physics_remastered/
 config/tellme/
+config/jade/
 
 
 defaultconfigs/ftbessentials-server.snbt
