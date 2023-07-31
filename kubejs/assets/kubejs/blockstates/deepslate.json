@@ -1,10 +1,10 @@
 {
   "variants": {
     "": [
-      { "model": "kubejs:block/deepslate/block/1"},
-      { "model": "kubejs:block/deepslate/block/2"},
-      { "model": "kubejs:block/deepslate/block/1", "y": 180 },
-      { "model": "kubejs:block/deepslate/block/2", "y": 180 }
+      { "model": "kubejs:master/strata/deepslate/block/1"},
+      { "model": "kubejs:master/strata/deepslate/block/2"},
+      { "model": "kubejs:master/strata/deepslate/block/1", "y": 180 },
+      { "model": "kubejs:master/strata/deepslate/block/2", "y": 180 }
     ]
   }
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kubejs:master/strata/deepslate/block/end1",
+    "side": "kubejs:master/strata/deepslate/block/side1"
+  }
+}

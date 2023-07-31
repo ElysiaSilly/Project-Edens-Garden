@@ -1,0 +1,12 @@
+{
+    "variants": {
+      "": [
+              { "model": "namespace:directory/file", "x":0, "y":0},
+              { "model": "namespace:directory/file", "x":90, "y":0},
+              { "model": "namespace:directory/file", "x":90, "y":90},
+              { "model": "namespace:directory/file", "x":90, "y":180},
+              { "model": "namespace:directory/file", "x":90, "y":270},
+              { "model": "namespace:directory/file", "x":180, "y":0}
+          ]
+    }
+  }

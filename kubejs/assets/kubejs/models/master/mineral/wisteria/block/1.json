@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+	  "end": "kubejs:master/mineral/wisteria/block/end1",
+	  "side": "kubejs:master/mineral/wisteria/block/side1"
+	}
+  }

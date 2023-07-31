@@ -1,7 +1,7 @@
 {
     "variants": {
       "": [
-              { "model": "kubejs:block/laurel/block/1"}
+              { "model": "kubejs:master/mineral/laurel/block/1"}
           ]
     }
   }

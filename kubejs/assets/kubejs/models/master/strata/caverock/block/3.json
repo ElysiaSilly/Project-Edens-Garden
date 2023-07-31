@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kubejs:master/strata/caverock/block/end2",
+    "side": "kubejs:master/strata/caverock/block/side1"
+  }
+}

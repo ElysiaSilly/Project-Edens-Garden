@@ -1,0 +1,10 @@
+look at me being a neatfreak!
+
+the files in this directory are extremely organized.
+textures can obviously be found in the textures directory, after that you'll find a "master", "block", and "item".
+master is used for stuff thats got both items and blocks registered. eg kerstone with its cobble and brick items, and various blocks. from there on folders are named in self-explanatory ways.
+block is used for one off or less important stuff; same goes for item.
+
+the texture files themselves are named after the side they occupy, and their variant. eg "end2", would be the texture thats mapped to the 2 ends of the block; top and bottom, and it being the second variation. you'll probably only find this being the case in master.
+
+the model directory is organized in a similar way, though due to how the item directory works, all item models still go into item.

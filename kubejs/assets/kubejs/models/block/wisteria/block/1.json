@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:block/cube_column",
-	"textures": {
-	  "end": "kubejs:block/wisteria/block/end1",
-	  "side": "kubejs:block/wisteria/block/side1"
-	}
-  }

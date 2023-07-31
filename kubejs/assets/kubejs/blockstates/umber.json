@@ -1,7 +1,7 @@
 {
     "variants": {
       "": [
-              { "model": "kubejs:block/umber/block/1"}
+              { "model": "kubejs:master/mineral/umber/block/1"}
           ]
     }
   }
