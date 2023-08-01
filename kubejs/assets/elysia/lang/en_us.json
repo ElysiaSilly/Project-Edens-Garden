@@ -1,0 +1,27 @@
+{
+    "block.kubejs.wisteria.keyword": "mineral deposit ore vein soulstone mithril brilliance silver magic precious crystalline mint purple end",
+    "block.kubejs.pewter.keyword": "mineral deposit ore vein cobalt iron lead gray grey mettalic rust overworld",
+    "block.kubejs.umber.keyword": "mineral deposit ore vein aluminum tin metallic brown overworld",
+    "block.kubejs.feldgrau.keyword": "mineral deposit ore vein uranium cobalt lead radioactive metallic gray grey overworld",
+    "block.kubejs.wenge.keyword": "mineral deposit ore vein iron nickel metallic gray grey overworld",
+    "block.kubejs.sarcoline.keyword": "mineral deposit ore vein silicon mica quartz white beige brown nether precious crystalline",
+    "block.kubejs.laurel.keyword": "mineral deposit ore vein green apatite sulphur saltpeter crystalline overworld",
+    "block.kubejs.chartreuse.keyword": "mineral deposit ore vein jade nephrite lime olives lapis lazuli brilliance exp xp magic crystalline precious overworld",
+
+    "block.create.veridium.keyword": "mineral deposit ore vein copper zinc cyan green turquoise overworld metallic",
+    "block.create.ochrum.keyword": "mineral deposit ore vein gold chtonic cinnabar redstone metallic brown red yellow overworld nether",
+    "block.create.asurine.keyword": "mineral deposit ore vein nickel tin apatite blue metallic overworld",
+    "block.create.crimsite.keyword": "mineral deposit ore vein iron cinnabar mettalic crystalline red overworld nether",
+
+    "text.hltweaker.level.minecraft.wood": "Flint",
+    "text.hltweaker.level.minecraft.gold": "Brass",
+    "text.hltweaker.level.minecraft.stone": "Copper",
+    "text.hltweaker.level.minecraft.iron": "Steel",
+    "text.hltweaker.level.minecraft.diamond": "Cobalt",
+    "text.hltweaker.level.minecraft.netherite": "Ancient",
+    "text.hltweaker.level.machine": "Dense",
+    "text.hltweaker.level.kaboom": "Impenetrable",
+
+    "itemGroup.edens_core.materials": "Eden's Core: Materials",
+    "itemGroup.edens_core.worldgen": "Eden's Core: Worldgen"
+}
