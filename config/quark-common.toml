@@ -475,57 +475,7 @@
 		"Item Quality" = 2
 		"Normal Upgrade Cost" = 10
 		"Limit Break Upgrade Cost" = 30
-		"Valid Enchantments" = [
-			"minecraft:protection",
-			"minecraft:fire_protection",
-			"minecraft:feather_falling",
-			"minecraft:blast_protection",
-			"minecraft:projectile_protection",
-			"minecraft:respiration",
-			"minecraft:thorns",
-			"minecraft:depth_strider",
-			"minecraft:frostwalker",
-			"minecraft:soul_speed",
-			"minecraft:swift_sneak",
-			"minecraft:sharpness",
-			"minecraft:smite",
-			"minecraft:bane_of_arthropods",
-			"minecraft:knockback",
-			"minecraft:fire_aspect",
-			"minecraft:looting",
-			"minercaft:sweeping_edge",
-			"minecraft:effiency",
-			"minecraft:unbreaking",
-			"minecraft:fortune",
-			"minecraft:power",
-			"minecraft:punch",
-			"minecraft:luck_of_the_sea",
-			"minecraft:lure",
-			"minecraft:loyalty",
-			"minecraft:impaling",
-			"minecraft:riptide",
-			"minecraft:quick_charge",
-			"minecraft:piercing",
-			"feathers:lightweight",
-			"cofh_core:holding",
-			"alexsmobs:straddle_jump",
-			"farmersdelight:backstabbing",
-			"ensorcellation:magic_protection",
-			"ensorcellation:insight",
-			"ensorcellation:reach",
-			"ensorcellation:vitality",
-			"ensorcellation:vigilante",
-			"ensorcellation:frost_aspect",
-			"ensorcellation:leech",
-			"ensorcellation:vorpal",
-			"ensorcellation:hunter",
-			"ensorcellation:quick_draw",
-			"ensorcellation:trueshot",
-			"ensorcellation:angler",
-			"ensorcellation:phalanx",
-			"create:potato_recovery",
-			"create:capacity"
-		]
+		"Valid Enchantments" = ["minecraft:protection", "minecraft:fire_protection", "minecraft:feather_falling", "minecraft:blast_protection", "minecraft:projectile_protection", "minecraft:respiration", "minecraft:thorns", "minecraft:depth_strider", "minecraft:frostwalker", "minecraft:soul_speed", "minecraft:swift_sneak", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minercaft:sweeping_edge", "minecraft:effiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:impaling", "minecraft:riptide", "minecraft:quick_charge", "minecraft:piercing", "feathers:lightweight", "cofh_core:holding", "alexsmobs:straddle_jump", "farmersdelight:backstabbing", "ensorcellation:magic_protection", "ensorcellation:insight", "ensorcellation:reach", "ensorcellation:vitality", "ensorcellation:vigilante", "ensorcellation:frost_aspect", "ensorcellation:leech", "ensorcellation:vorpal", "ensorcellation:hunter", "ensorcellation:quick_draw", "ensorcellation:trueshot", "ensorcellation:angler", "ensorcellation:phalanx", "create:potato_recovery", "create:capacity"]
 		"Overleveled Books Glow Rainbow" = true
 		#When enabled, Efficiency VI Diamond and Netherite pickaxes can instamine Deepslate when under Haste 2
 		"Deepslate Tweak" = true
