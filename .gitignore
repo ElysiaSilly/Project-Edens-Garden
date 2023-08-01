@@ -14,6 +14,7 @@ patchouli_books/
 resourcepacks/
 saves/
 schematics/
+screenshots/
 
 # Files
 .curseclient
@@ -23,7 +24,8 @@ patchouli_data.json
 rhino.local.properties
 usercache.json
 usernamecache.json
-kubejs/README.txt
+*.log
+kubejs/reference
 
 # Configs
 config/spark
