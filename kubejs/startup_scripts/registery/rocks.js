@@ -5,26 +5,32 @@ StartupEvents.registry('block', event => {
     global.strata.forEach((strata) => {
     global.strataBlocks.forEach((block) => {
     
-        event.create(`${strata.id}${block.id}`)
+        event
+        .create(`${strata.id}${block.id}`)
         .material('stone')
         .tagBlock(`${strata.harvestLevel}`)
         .hardness(`${strata.hardness}`)
         .requiresTool(true)
         .resistance(`${strata.resistance}`)
-    
+        .item(builder => {
+            builder.group('edens_core.worldgen')})
+
     })})
 
     // Registers the Mineral blocks
 
     global.minerals.forEach((mineral) => {
     
-        event.create(`${mineral.id}`)
+        event
+        .create(`${mineral.id}`)
         .material('stone')
         .tagBlock(`${mineral.harvestLevel}`)
         .hardness(`${mineral.hardness}`)
         .requiresTool(true)
         .renderType(`${mineral.renderType}`)
-    
+        .item(builder => {
+            builder.group('edens_core.worldgen')})
+
     })
 
 })
