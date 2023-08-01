@@ -475,7 +475,57 @@
 		"Item Quality" = 2
 		"Normal Upgrade Cost" = 10
 		"Limit Break Upgrade Cost" = 30
-		"Valid Enchantments" = ["minecraft:protection", "minecraft:fire_protection", "minecraft:feather_falling", "minecraft:blast_protection", "minecraft:projectile_protection", "minecraft:respiration", "minecraft:aqua_affinity", "minecraft:thorns", "minecraft:depth_strider", "minecraft:frost_walker", "minecraft:soul_speed", "minecraft:swift_sneak", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping_edge", "minecraft:efficiency", "minecraft:silk_touch", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:flame", "minecraft:infinity", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:impaling", "minecraft:riptide", "minecraft:channeling", "minecraft:multishot", "minecraft:quick_charge", "minecraft:piercing", "minecraft:mending", "feathers:llightweight", "cofh_core:holding", "ad_astra_giselle_addon:space_fire_proof", "ad_astra_giselle_addon:acid_rain_proof", "ad_astra_giselle_addon:space_breathing", "ad_astra_giselle_addon:gravity_normalizing", "apotheosis:miners_fervor", "apotheosis:stable_footing", "apotheosis:life_mending", "apotheosis:icy_thorns", "apotheosis:temptation", "apotheosis:shield_bash", "apotheosis:reflective_defenses", "apotheosis:berserkers_fury", "apotheosis:knowledge_of_the_ages", "apotheoss:splitting", "apotheosis:natures_blessing", "apotheosis:rebounding", "apotheosis:bane_of_illagers", "apotheosis:obliteration", "apotheosis:crescendo_of_bolts", "apotheosis:endless_quiver", "apotheosis:chromatic_aberration", "apotheosis:worker_exploitation", "apotheosis:growth_serum", "apotheosis:boon_of_the_earth", "apotheosis:chainsaw", "apotheosis:spearfishing", "apotheosis:capturing", "alexs_mobs:straddle_jump", "alexs_mob:lavawaxed", "alexs_mobs:serpent_charmer", "alexs_mobs:returning_board", "farmers_delight:backstabbing", "create:potato_recovery", "create:capacity", "supplementaries:stasis"]
+		"Valid Enchantments" = [
+			"minecraft:protection",
+			"minecraft:fire_protection",
+			"minecraft:feather_falling",
+			"minecraft:blast_protection",
+			"minecraft:projectile_protection",
+			"minecraft:respiration",
+			"minecraft:thorns",
+			"minecraft:depth_strider",
+			"minecraft:frostwalker",
+			"minecraft:soul_speed",
+			"minecraft:swift_sneak",
+			"minecraft:sharpness",
+			"minecraft:smite",
+			"minecraft:bane_of_arthropods",
+			"minecraft:knockback",
+			"minecraft:fire_aspect",
+			"minecraft:looting",
+			"minercaft:sweeping_edge",
+			"minecraft:effiency",
+			"minecraft:unbreaking",
+			"minecraft:fortune",
+			"minecraft:power",
+			"minecraft:punch",
+			"minecraft:luck_of_the_sea",
+			"minecraft:lure",
+			"minecraft:loyalty",
+			"minecraft:impaling",
+			"minecraft:riptide",
+			"minecraft:quick_charge",
+			"minecraft:piercing",
+			"feathers:lightweight",
+			"cofh_core:holding",
+			"alexsmobs:straddle_jump",
+			"farmersdelight:backstabbing",
+			"ensorcellation:magic_protection",
+			"ensorcellation:insight",
+			"ensorcellation:reach",
+			"ensorcellation:vitality",
+			"ensorcellation:vigilante",
+			"ensorcellation:frost_aspect",
+			"ensorcellation:leech",
+			"ensorcellation:vorpal",
+			"ensorcellation:hunter",
+			"ensorcellation:quick_draw",
+			"ensorcellation:trueshot",
+			"ensorcellation:angler",
+			"ensorcellation:phalanx",
+			"create:potato_recovery",
+			"create:capacity"
+		]
 		"Overleveled Books Glow Rainbow" = true
 		#When enabled, Efficiency VI Diamond and Netherite pickaxes can instamine Deepslate when under Haste 2
 		"Deepslate Tweak" = true
@@ -506,7 +556,7 @@
 		#minecraft:ice_mountains,2,8,14,7FE4FF
 		Customs = []
 		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
-		"Apply Default Trades" = true
+		"Apply Default Trades" = false
 		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
 		"Pathfinders Quill Speed" = 32
 		#Experimental. Determines if quills should be multithreaded instead. Will ignore quill speed. This could drastically improve performance as it execute the logic off the main thread ideally causing no lag at all
