@@ -109,6 +109,8 @@ global.minerals = [
 global.strataItems = [
     {
         id: "_cobble",
+    },{
+        id: "_brick"
     }
 ]
 
