@@ -39,6 +39,7 @@ config/powah*
 config/sound_physics_remastered/
 config/tellme/
 config/jade/
+config/*.bak
 
 
 defaultconfigs/ftbessentials-server.snbt
