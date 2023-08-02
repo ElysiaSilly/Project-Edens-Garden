@@ -1,6 +1,6 @@
 StartupEvents.registry('block', event => {
 
-    global.metalOres.forEach((metal) => {
+    global.metals.forEach((metal) => {
     global.metalBlocks.forEach((block) => {
 
         event
@@ -14,7 +14,7 @@ StartupEvents.registry('block', event => {
 
     })})
 
-    global.gemOres.forEach((gem) => {
+    global.gems.forEach((gem) => {
     global.gemBlocks.forEach((block) => {
     
         event
@@ -27,11 +27,25 @@ StartupEvents.registry('block', event => {
             builder.group('edens_core.materials')})
 
     })})
+
+    global.alloys.forEach((alloy) => {
+    global.alloyBlocks.forEach((block) => {
+    
+        event
+        .create(`${alloy.id}_${block.id}`)
+        .material('stone')
+        .tagBlock(`${alloy.harvestLevel}`)
+        .hardness(`${alloy.hardness}`)
+        .requiresTool(true)
+        .item(builder => {
+           builder.group("edens_core.materials")})
+    
+     })})
 })
 
 StartupEvents.registry('item', event => {
 
-    global.metalOres.forEach((metal) => {
+    global.metals.forEach((metal) => {
     global.metalItems.forEach((item) => {
 
         event
@@ -40,7 +54,7 @@ StartupEvents.registry('item', event => {
 
     })})
 
-    global.gemOres.forEach((gem) => {
+    global.gems.forEach((gem) => {
     global.gemItems.forEach((item) => {
     
         event
@@ -48,4 +62,21 @@ StartupEvents.registry('item', event => {
         .group('edens_core.materials')
 
     })})
+
+    global.alloys.forEach((alloy) => {
+    global.alloyItems.forEach((item) => {
+        
+        event
+        .create(`${alloy.id}_${item.id}`)
+        .group('edens_core.materials')
+
+    })})
+
+    global.oneOffs.forEach((bro) => {
+        
+        event
+        .create(`${bro}`)
+        .group('edens_core.materials')
+
+    })
 })

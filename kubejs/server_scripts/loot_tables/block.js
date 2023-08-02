@@ -2,7 +2,7 @@ LootJS.modifiers((event) => {
 
     // Not sure if this is even working at the moment
 
-    global.metalOres.forEach((metal) => {
+    global.metals.forEach((metal) => {
 
         event.addBlockLootModifier(`kubejs:${metal.id}_ore`)
         .removeLoot(`kubejs:${metal.id}_ore`)
@@ -11,7 +11,7 @@ LootJS.modifiers((event) => {
         //.applyOreBonus("minecraft:fortune")
     })
 
-    global.gemOres.forEach((gem) => {
+    global.gems.forEach((gem) => {
 
         event.addBlockLootModifier(`kubejs:${gem.id}_ore`)
         .removeLoot(`kubejs:${gem.id}_ore`)

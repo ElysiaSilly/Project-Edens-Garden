@@ -1,4 +1,6 @@
-global.metalOres = [
+// Priority: 0
+
+global.metals = [
     {
         id: "iron",
         harvestLevel: "minecraft:mineable/pickaxe",
@@ -112,7 +114,7 @@ global.metalOres = [
     }
 ]
 
-global.gemOres = [
+global.gems = [
     {
         id: "emerald",
         harvestLevel: "minecraft:mineable/pickaxe",
@@ -236,6 +238,135 @@ global.gemOres = [
     }
 ]
 
+global.alloys = [
+    {
+        id: "netherite",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "pink_slime",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "manasteel",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "terrasteel",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "elementium",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "cast_iron",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "compressed_iron",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "signalum",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "lumium",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "enderium",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "bronze",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "electrum",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "invar",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "constantan",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "flux_infused",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "nether_brass",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "prismalium",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "melodium",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "stellarium",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "brass",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "steel",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    },{
+        id: "andesite",
+        harvestLevel: "minecraft:mineable/pickaxe",
+        hardness: "1",
+        resistance: "1"
+    }
+]
+
+global.oneOffs = [
+    "ferrous_wroughtsteel",
+    "stainless_steel",
+    "polymer_clay",
+    "cryo_enderium",
+    "elysium_alloy",
+    "fiery_ingot",
+    "compound_base",
+    "yet_to_be_flux_infused_alloy",
+    "gaia_spirit_ingot",
+    "hop_graphite",
+    "hot_compressed_alloy",
+    "totallynotascam_miracle_alloy"
+]
+
 global.metalBlocks = [
     {
         id: "storage_block",
@@ -264,6 +395,14 @@ global.gemBlocks = [
     }
 ]
 
+global.alloyBlocks = [
+    {
+        id: "storage_block",
+        tag: "forge:storage_blocks",
+        appendTag: "/"
+    }
+]
+
 global.metalItems = [
     {
         id: "raw",
@@ -278,20 +417,52 @@ global.metalItems = [
         tag: "forge:nuggets",
         appendTag: "/"
     },{
-        id: "dust",
+        id: "grit",
         tag: "forge:dusts",
         appendTag: "/"
     },{
-        id: "gear",
+        id: "cog",
         tag: "forge:gears",
         appendTag: "/"
     },{
-        id: "plate",
+        id: "sheet",
         tag: "forge:plates",
         appendTag: "/"
     },{
         id: "crushed",
         tag: "forge:crushed",
+        appendTag: "/"
+    },{
+        id: "rod",
+        tag: "forge:rods",
+        appendTag: "/"
+    },{
+        id: "wire",
+        tag: "forge:wires",
+        appendTag: "/"
+    }
+]
+
+global.alloyItems = [
+    {
+        id: "alloy",
+        tag: "forge:ingots",
+        appendTag: "/"
+    },{
+        id: "nugget",
+        tag: "forge:nuggets",
+        appendTag: "/"
+    },{
+        id: "grit",
+        tag: "forge:dusts",
+        appendTag: "/"
+    },{
+        id: "cog",
+        tag: "forge:gears",
+        appendTag: "/"
+    },{
+        id: "sheet",
+        tag: "forge:plates",
         appendTag: "/"
     },{
         id: "rod",
@@ -320,6 +491,10 @@ global.gemItems = [
     },{
         id: "seed",
         tag: "forge:seeds",
+        appendTag: "/"
+    },{
+        id: "rough",
+        tag: "forge:unpolished",
         appendTag: "/"
     },
 ]

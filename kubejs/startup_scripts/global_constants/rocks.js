@@ -1,3 +1,5 @@
+// Priority: 0
+
 global.strata = [
     {
         id: "aardsilt",
@@ -106,20 +108,30 @@ global.minerals = [
     }
 ]
 
-global.strataItems = [
+global.rockItems = [
     {
         id: "_cobble",
+        appendTag: "/",
+        tag: "cobble"
     },{
-        id: "_brick"
+        id: "_brick",
+        appendTag: "/",
+        tag: "brick"
     }
 ]
 
 global.strataBlocks = [
     {
-        id: ""
+        id: "",
+        appendTag: "strata/",
+        tag: "strata"
     },{
-        id: "_polished"
+        id: "_polished",
+        appendTag: "strata_polished/",
+        tag: "brick"
     },{
-        id: "_cobbles"
+        id: "_cobbles",
+        appendTag: "strata_cobbles/",
+        tag: "brick"
     }
 ]
