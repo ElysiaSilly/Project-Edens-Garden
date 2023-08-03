@@ -1,0 +1,8 @@
+{
+  "compatibilityMode": false,
+  "fluids": [
+    "kubejs:fresh_water",
+    "kubejs:brackish_water"
+  ],
+  "disabledEnforcedFluids": []
+}
